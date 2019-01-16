@@ -1,0 +1,23 @@
+ISim log file
+Running: D:\Verilog projects\Vedic4x4\Vedic8x8_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Verilog projects/Vedic4x4/Vedic8x8_isim_beh.wdb 
+ISim O.61xd (signature 0x6dd86d03)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# isim force add /Vedic8x8/i1 10101010 -radix bin
+# isim force add /Vedic8x8/i1 10101010 -radix bin
+# isim force add /Vedic8x8/i2 11001100 -radix bin
+# isim force add /Vedic8x8/i2 11001100 -radix bin
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

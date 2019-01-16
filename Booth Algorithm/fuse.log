@@ -1,0 +1,42 @@
+Running: C:\Xilinx\13.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Verilog projects/BoothAlgorithm/BoothMultp4x4_isim_beh.exe -prj D:/Verilog projects/BoothAlgorithm/BoothMultp4x4_beh.prj work.BoothMultp4x4 work.glbl 
+ISim O.61xd (signature 0x6dd86d03)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"D:/Verilog projects/BoothAlgorithm/XORgate.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/BoothAlgorithm/NOTgate.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/BoothAlgorithm/NANDgate_3Input.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/BoothAlgorithm/NANDgate_2Input.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/BoothAlgorithm/FullAdder.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/BoothAlgorithm/HalfAdder.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/BoothAlgorithm/CLA5Bit.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/BoothAlgorithm/BoothEncoder.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/BoothAlgorithm/BoothDecoder.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/BoothAlgorithm/BoothMultp4x4.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/13.2/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/Verilog projects/BoothAlgorithm/CLA5Bit.v" Line 28: Port Cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Verilog projects/BoothAlgorithm/CLA5Bit.v" Line 33: Port Cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Verilog projects/BoothAlgorithm/CLA5Bit.v" Line 38: Port Cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Verilog projects/BoothAlgorithm/CLA5Bit.v" Line 43: Port Cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Verilog projects/BoothAlgorithm/CLA5Bit.v" Line 48: Port Cout is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 98308 KB
+Fuse CPU Usage: 186 ms
+Compiling module NOTgate
+Compiling module XORgate_2Input
+Compiling module NANDgate_3Input
+Compiling module NANDgate_2Input
+Compiling module BoothEncoder
+Compiling module BoothDecoder
+Compiling module HalfAdder
+Compiling module FullAdder
+Compiling module CLA5Bit
+Compiling module BoothMultp4x4
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 Verilog Units
+Built simulation executable D:/Verilog projects/BoothAlgorithm/BoothMultp4x4_isim_beh.exe
+Fuse Memory Usage: 103920 KB
+Fuse CPU Usage: 248 ms

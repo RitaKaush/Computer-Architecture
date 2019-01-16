@@ -1,0 +1,43 @@
+Running: C:\Xilinx\13.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Verilog projects/Vedic4x4/Vedic8x8_isim_beh.exe -prj D:/Verilog projects/Vedic4x4/Vedic8x8_beh.prj work.Vedic8x8 work.glbl 
+ISim O.61xd (signature 0x6dd86d03)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"D:/Verilog projects/Vedic4x4/HA.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/Vedic4x4/FA.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/Vedic4x4/RCA.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/Vedic4x4/../rithika_274/and.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/Vedic4x4/Vedic2x2.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/Vedic4x4/RCA4x4.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/Vedic4x4/CSA.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/Vedic4x4/vedic4x4.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/Vedic4x4/RCA_12x12.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/Vedic4x4/RCA8x8.v\" into library work
+Analyzing Verilog file \"D:/Verilog projects/Vedic4x4/Vedic8x8.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/13.2/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/Verilog projects/Vedic4x4/Vedic8x8.v" Line 53: Port Carry is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Verilog projects/Vedic4x4/Vedic8x8.v" Line 54: Port Carry is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Verilog projects/Vedic4x4/Vedic8x8.v" Line 58: Port Carry is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Verilog projects/Vedic4x4/vedic4x4.v" Line 57: Port Cout is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 98756 KB
+Fuse CPU Usage: 187 ms
+Compiling module ANDgate
+Compiling module HA
+Compiling module Vedic2x2
+Compiling module FA
+Compiling module RCA5x5
+Compiling module CSA4x4
+Compiling module RCA4x4
+Compiling module vedic4x4
+Compiling module RCA8x8
+Compiling module RCA_12x12
+Compiling module Vedic8x8
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable D:/Verilog projects/Vedic4x4/Vedic8x8_isim_beh.exe
+Fuse Memory Usage: 103344 KB
+Fuse CPU Usage: 295 ms
